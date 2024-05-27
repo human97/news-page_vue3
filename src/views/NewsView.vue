@@ -81,7 +81,7 @@ onMounted(async () => {
 .header-news {
   position: relative;
   height: 320px;
-  background-image: url('src/assets/images/news.webp');
+  background-image: url('/images/news.webp');
   background-repeat: no-repeat;
   background-size: cover;
 
