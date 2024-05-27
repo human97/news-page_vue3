@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
     <div class="container">
-        <news-item 
+        <NewsItem 
            v-for="item in items"
            :item="item"
            :key="item.date"

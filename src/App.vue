@@ -5,11 +5,11 @@ import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
-  <app-header />
+  <AppHeader />
 
   <RouterView />
 
-  <app-footer />
+  <AppFooter />
 </template>
 
 <style lang="scss">

@@ -52,13 +52,13 @@ onMounted(async () => {
       <h1 class="header-news__title">Новости</h1>
     </div>
 
-    <news-list
+    <NewsList
       v-if="news.length" 
       :items="news"
       :nav="nav"
     />
 
-    <app-loader 
+    <AppLoader 
       v-show="isNewsLoading"
     />
 
