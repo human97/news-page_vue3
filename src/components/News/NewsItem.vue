@@ -50,7 +50,6 @@ const formattedDate = computed(() => {
     min-height: 554px;
     border: 1px solid #0F62FE;
     border-radius: 16px;
-    margin-bottom: 64px;
 
   &__img {
     max-width: 100%;

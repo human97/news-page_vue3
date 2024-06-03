@@ -96,13 +96,9 @@ onMounted(async () => {
   }
 }
 
-.container {
-  margin: 64px 100px 200px 100px;
-}
-
 .btn-load {
     position: absolute;
-    bottom: 102px;
+    bottom: 72px;
     left: 50%;
     transform: translateX(-50%);
 }
