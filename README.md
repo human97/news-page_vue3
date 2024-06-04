@@ -1,29 +1,27 @@
-# zebra-test Vue 3(Composition API) + Vite
+# Новостная страница на Vue 3 [Просмотр проекта](https://news-page-vue3.netlify.app/)
 
-This template should help get you started developing with Vue 3 in Vite.
+Этот проект представляет собой простую новостную страницу, разработанную с использованием следующих технологий:
 
-## Recommended IDE Setup
+## Технологии:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3 Composition API: Для структурирования и управления состоянием компонентов**
+- **vue-router: Для управления маршрутизацией между различными страницами приложения**
+- **date-fns: Для работы с датами и их форматирования**
+- **axios: Для выполнения HTTP-запросов и получения данных о новостях**
+- **SCSS: Для стилизации компонентов**
+- **Vite: Для быстрой сборки и разработки проекта**
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# News Page in Vue 3 [View Project](https://news-page-vue3.netlify.app/)
 
-## Project Setup
+This project is a simple news page developed using the following technologies:
 
-```sh
-npm install
-```
+## Technologies:    
 
-### Compile and Hot-Reload for Development
+- **Vue 3 Composition API: For structuring and managing component state**
+- **vue-router: For handling routing between different application pages**
+- **date-fns: For working with dates and formatting them**
+- **axios: For making HTTP requests and fetching news data**
+- **SCSS: For styling components**
+- **Vite: For fast project building and development**
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
