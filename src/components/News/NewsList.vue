@@ -25,7 +25,7 @@ const props = defineProps({
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 64px;
+    gap: 64px 20px ;
     padding: 64px 100px 200px 100px;
 }
 </style>

@@ -17,7 +17,7 @@ const clickOnButton = () => {
 
 
 
-<style>
+<style lang="scss" scoped>
 .button {
     padding: 16px 32px;
     background: transparent;
@@ -27,5 +27,10 @@ const clickOnButton = () => {
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+
+    &:hover {
+        border-color: lighten(#002DBF, 30%);
+        color: lighten(#002DBF, 30%);
+    }
 }
 </style>
